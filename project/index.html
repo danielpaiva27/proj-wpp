@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c06188cd81.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="toolbar-container">
+                <img class="user-photo" src="../imgs/avatar1.png">
+                <div class="icons-toolbar-container">
+                    <i class="fas fa-spinner"></i>
+                    <i class="fas fa-comment-alt"></i>
+                    <i class="fas fa-ellipsis"></i>
+                </div>
+            </div>
+            <div class="notifications-container">
+                <i class="fas fa-bell-slash"></i>
+                <p class="receive-notification">Recba Notificação de suas mensagens</p>
+                <p class="activate-notfication">ativar notificações na area de trabalho
+                    <i class="fas fa-angle-right"></i>
+                </p>
+            </div>
+            <div class="search-container">
+                <i id="contact-search" class="fas fa-search"></i>
+                <input type="text" name="search" id="search" placeholder="procurar ou começar uma nova conversa"> 
+            </div>
+            <div class="contacts-container">
+                <div class="contact-box active-chat">
+                    <img class="user-photo" src="../imgs/man4_15810033.png">
+                    <div class="user-info">
+                        <p class="user-name">Marquinhos</p>
+                        <p class="user-messagem-previa">
+                            <i class="fas fa-check-double"></i>
+                            Preciso desse projeto para ontem!</p>
+                    </div>
+                    <div class="message-info">
+                        <p class="message-time">19:22</p>
+                    </div>
+                </div>
+                <div class="contact-box">
+                    <img class="user-photo" src="../imgs/woman9_15810060.png">
+                    <div class="user-info">
+                        <p class="user-name">Amor</p>
+                        <p class="user-messagem-previa">Hoje tem viu ;)</p>
+                    </div>
+                    <div class="message-info">
+                        <p class="message-time">12:24</p>
+                        <p class="message-pending">3</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <main class="chat-container">
+            <nav class="chat-navbar">
+                <div class="contactinfo-container">
+                    <img class="user-photo" src="../imgs/man4_15810033.png">
+                    <p class="user-name">Marquinhos</p>
+                </div>
+                <ul class="chattools-container">
+                    <li><i class="fa fa-search"></i></li>
+                    <li><i class="fas fa-paperclip"></i></li>
+                    <li><i class="fas fa-ellipsis-v"></i></li>
+                </ul>
+            </nav>
+            <div class="messages-container">
+                <div class="bg-image"></div>
+                <div class="chat-messages">
+                    <p class="guest-message">Chefe ta foda p mim, consegui terminar nao</p>
+                    <p class="user-message">Preciso desse projeto para ontem!</p>
+                </div>
+            </div>
+            <div class="sendmessage-container">
+                <i class="fas fa-grin"></i>
+                <input id="chatmessage" type="text" name="message" class="userinput" placeholder="digite uma mensagem">
+                <i class="fas fa-microphone"></i>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
